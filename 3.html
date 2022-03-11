@@ -6,6 +6,32 @@
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input type="button" value="night" onclick="
+  var target=document.querySelector('body');
+  if(this.value==='night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='day';
+
+    var alist=document.querySelectorAll('a');
+    var i=0
+    while(i<alist.length){
+      alist[i].style.color='powderblue'
+      i=i+1;
+    }
+  }else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='night';
+
+    var alist=document.querySelectorAll('a');
+    var i=0
+    while(i<alist.length){
+      alist[i].style.color='blue'
+      i=i+1;
+    }
+  }
+  ">
   <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
@@ -15,5 +41,31 @@
   <p>
     JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
   </p>
+  <input type="button" value="night" onclick="
+  var target=document.querySelector('body');
+  if(this.value==='night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='day';
+
+    var alist=document.querySelectorAll('a');
+    var i=0
+    while(i<alist.length){
+      alist[i].style.color='powderblue'
+      i=i+1;
+    }
+  }else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='night';
+
+    var alist=document.querySelectorAll('a');
+    var i=0
+    while(i<alist.length){
+      alist[i].style.color='blue'
+      i=i+1;
+    }
+  }
+  ">
 </body>
 </html>
