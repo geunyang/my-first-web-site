@@ -6,6 +6,33 @@
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input type="button" value="night" onclick="
+  var target=document.querySelector('body');
+  if(this.value==='night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='day';
+
+    var alist=document.querySelectorAll('a');
+    var i=0
+    while(i<alist.length){
+      alist[i].style.color='powderblue'
+      i=i+1;
+    }
+  }else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='night';
+
+    var alist=document.querySelectorAll('a');
+    var i=0
+    while(i<alist.length){
+      alist[i].style.color='blue'
+      i=i+1;
+    }
+  }
+  ">
+
   <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
@@ -15,5 +42,32 @@
   <p>
     Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
   </p>
+  <input type="button" value="night" onclick="
+  var target=document.querySelector('body');
+  if(this.value==='night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value='day';
+
+    var alist=document.querySelectorAll('a');
+    var i=0
+    while(i<alist.length){
+      alist[i].style.color='powderblue'
+      i=i+1;
+    }
+  }else{
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value='night';
+
+    var alist=document.querySelectorAll('a');
+    var i=0
+    while(i<alist.length){
+      alist[i].style.color='blue'
+      i=i+1;
+    }
+  }
+  ">
+
 </body>
 </html>
